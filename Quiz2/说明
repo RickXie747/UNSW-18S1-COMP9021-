@@ -1,0 +1,6 @@
+Quiz2 基础版本 效率低下
+Quiz2_efficient 优化版 tau长度受限制  Quiz_efficientcy_test 测试优化的
+Quiz2_efficient_final_Martin 懒得搞了，decimal增加了10000位的精度，quiz2就用的这个版本，试试吧
+
+Martin_Quiz2 根据yangqinmeng复述的周五lecuture Martin思路写的sigma和tau的判断
+test_quiz2_yangqinmeng 基本完成功能 是否有尽的flag还有点问题
