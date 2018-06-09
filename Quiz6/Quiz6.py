@@ -9,6 +9,18 @@
 # Written by *** and Eric Martin for COMP9021
 
 
+'''
+1.顶点重叠必然导致斜率相同，所以判定顶点相同多余
+2.change_point_or_points(self, *, point_1=None, point_2=None, point_3=None)
+    此方法是依次判定point1 ，2 ，3
+    如果改变point1，三角形成立，则赋值给self.point_1
+    再进行point2判定
+    如果point1，point2同时修改三角形不成立，而修改point1成立，在修改point2成立，那么这种情况就无法被正确判定
+    point3同理
+    在改进方法中，对point1 ，2 ，3同时修改，避免了这种错误，同时代码更简洁
+3.改进版本在Quiz6_2.py中
+'''
+
 from math import sqrt
 
 
